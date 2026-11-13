@@ -1,0 +1,24 @@
+{
+  "name": "agripulse-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AgriPulse AI — AI-Powered Agriculture Crop Advisory Assistant",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "migrate": "cd backend && node ../supabase/apply-migration.js"
+  },
+  "keywords": [
+    "agritech",
+    "crop-diagnosis",
+    "gemini-2-5-flash",
+    "supabase",
+    "row-level-security",
+    "plant-pathology"
+  ],
+  "author": "AgriPulse AI Team",
+  "license": "MIT"
+}
+
